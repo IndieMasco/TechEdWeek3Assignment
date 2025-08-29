@@ -42,7 +42,7 @@ This week assignment we had to build a simple interactive game to engage our vis
 
 ### Tutorials
 
-Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg, https://www.youtube.com/watch?v=dKOT5LcouzQ
+Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
 
 # Feedback Request
 
