@@ -5,19 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <script src="./app.js" defer ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <title>Week 3 Assignment Cookie Clicker</title>
 </head>
 <body>
+    <!-- Header for the cookie clicker game -->
+    <div class="header">
     <h1>That time i got reincarnated as a rock in a mining cookie clicker game</h1>
-<!-- clickable image -->
-    <button id="button">
-        <img src="./images/rock.png" alt="#" style="width: 200px; height: 200px"/>
-    </button>
-    <!-- count & CPS -->
-    <div id="text">
-        <p>Count:</p>
-        <p>CPS:</p>
     </div>
+
+<!-- Clickable image -->
+    <button id="button" class="button">
+        <img src="./images/rock.png" alt="rock with an anime face" style="width: 200px; height: 200px"/>
+    </button>
+
+    <!-- Count & CPS -->
+    <div id="text">
+        <p>Rock count:</p><p id="count"></p>
+        <p>CPS:</p><p id="clicksec" ></p>
+    </div>
+    
     <!-- Shop container -->
     <div id="shop-container"></div>
 </body>

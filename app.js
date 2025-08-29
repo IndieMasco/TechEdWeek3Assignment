@@ -1,6 +1,6 @@
 console.log("HELLO!")
 
-// Connect with the API to request the data from the provided link
+// Request the data from the provided API link 
 
 async function getData() {
   const response = await fetch("https://cookie-upgrade-api.vercel.app/api/upgrades");
@@ -9,3 +9,5 @@ async function getData() {
   console.log(data);
 }
 getData();
+
+// Counting clicks & CPS

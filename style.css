@@ -1,5 +1,17 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
 body {
-    background-color: turquoise;
+    background-image: url(./images/background.png);
+    background-size: fill;
+    background-repeat: no-repeat;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.header {
+    padding: 2%;
+    font-size: 1.5rem;
+}
+
+
