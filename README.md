@@ -1,13 +1,14 @@
 # Reflection
 
+This week assignment we had to build a simple interactive game to engage our visitors. Games such as these are known as an “idling games” or “incremental games”.
+
 # Requirements
 
 - 🎯 Fetch upgrade data from the provided API and at least one upgrade from the API update the cookie count.
 - 🎯 Ensure that functions are used effectively to keep code organised and reusable.
 - 🎯 Implement event listeners to handle user interactions.
 - 🎯 Use local storage to save and restore the cookie count and relevant game information.
-- 🎯 Use setInterval to increment the cookie count and manage the game state each second.
-Managing the game state includes saving progress and updating the DOM.
+- 🎯 Use setInterval to increment the cookie count and manage the game state each second. Managing the game state includes saving progress and updating the DOM.
 
 # Stretch Requirements
 
@@ -18,6 +19,14 @@ Managing the game state includes saving progress and updating the DOM.
 - 🏹 Create a menu for users to adjust game options like sound effects or display preferences.
 
 # requirements that I wasn't able to achieve
+
+................
+
+# Errors or bugs I encountered
+
+................
+
+# What went really well and what could have gone better?
 
 ................
 
@@ -34,3 +43,7 @@ Managing the game state includes saving progress and updating the DOM.
 ### Tutorials
 
 Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg, https://www.youtube.com/watch?v=dKOT5LcouzQ
+
+# Feedback Request
+
+If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
