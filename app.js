@@ -2,17 +2,19 @@ console.log("HELLO!");
 
 // clicks
 
-var click = 0;
-function countClicks() {
-  document.getElementById("count").innerHTML = ++click;
-  click = click;
+let cookieButton = document.getElementById("rockButton");
+let cookieAmount = document.getElementById("rockAmount");
+
+let rocks = 0;
+
+function updateRockAmount() {
+  rockAmount.innerText = "you have " + rocks + " rocks";
 }
 
-// The interval
-
-setInterval(function () {
-  rockCount += cps;
-}, 1000);
+function clickRocks() {
+  rocks++;
+  updateRockAmount();
+}
 
 // API
 
@@ -32,12 +34,13 @@ console.log(upgrades);
 
 //====
 
-// Data storage
+// The interval
 
-const rockCount = document.getElementById("count");
-const cps = document.getElementById("cps");
+setInterval(function () {
+  rockCount += cps;
+}, 1000);
 
-let stats = {
-  rockCount: 0,
-  cps: 0,
-};
+// Local storage
+
+let rockCount = 0;
+let cps = 0;

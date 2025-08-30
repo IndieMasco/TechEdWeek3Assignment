@@ -14,15 +14,15 @@
     <title>Week 3 Assignment Cookie Clicker</title>
   </head>
   <body>
-    <!-- Header for the cookie clicker game -->
+    <!-- Header -->
     <div class="header">
       <h1>
-        That time i got reincarnated as a rock in a mining cookie clicker game
+        That Time I Got Reincarnated as a Rock in a Mining Cookie-Clicker Game
       </h1>
     </div>
 
     <!-- Clickable image -->
-    <button id="button" class="button" onclick="countClicks()">
+    <button id="rockButton" class="button" onclick="clickRocks()">
       <img
         id="animerock"
         src="./images/rock.png"
@@ -31,12 +31,10 @@
       />
     </button>
 
-    <!-- Count & CPS -->
-    <div id="text">
-      <p>Rock count:</p>
-      <p id="count"></p>
-      <p>CPS:</p>
-      <p id="cps"></p>
+    <!-- Rock count & CPS -->
+    <div id="text-container">
+      <p id="rockAmount">you have 0 rocks</p>
+      <p id="cps">CPS: 0</p>
     </div>
 
     <!-- Shop container -->
