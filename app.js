@@ -2,21 +2,19 @@ console.log("HELLO!");
 
 // clicks
 
-let cookieButton = document.getElementById("rockButton");
-let cookieAmount = document.getElementById("rockAmount");
-
-let rocks = 0;
+let rockButton = document.getElementById("rockButton");
+let rockAmount = document.getElementById("rockAmount");
 
 function updateRockAmount() {
-  rockAmount.innerText = "you have " + rocks + " rocks";
+  rockAmount.innerText = "you have " + state.rockCount + " rocks";
 }
 
 function clickRocks() {
-  rocks++;
+  state.rockCount++;
   updateRockAmount();
 }
 
-// API & Upgrades
+// API & Upgrades buttons
 
 async function getUpgrades() {
   const response = await fetch(
@@ -25,32 +23,40 @@ async function getUpgrades() {
   const data = await response.json();
   return data;
 }
-const upgrades = getUpgrades();
 
 async function displayUpgrades() {
   const upgrades = await getUpgrades();
-  const upgradeList = document.getElementById("upgrades");
-  upgradeList.textContent = upgrades;
-  document.body.appendChild(upgradeList);
+  for (let i = 0; i < upgrades.length; i++) {
+    const upgradeList = document.createElement("button");
+    upgradeList.textContent = upgrades[i].name;
+
+    document.body.appendChild(upgradeList);
+  }
 }
 
 displayUpgrades();
 
 // The interval
 
-// setInterval(function () {
-//   rockCount += cps;
-// }, 1000);
+setInterval(function () {
+  state.rockCount += state.cps;
+  saveData();
+}, 1000);
 
 // Local storage
 
-let saveState = {
+let state = {
   rockCount: 0,
   cps: 0,
 };
 
-const saveStateString = JSON.stringify(saveState);
-localStorage.setItem("saveState", saveStateString);
+function saveData() {
+  const saveStateString = JSON.stringify(state);
+  localStorage.setItem("state", saveStateString);
+}
 
-const loadSaveStateString = localStorage.getItem("saveState");
-JSON.parse(loadSaveStateString);
+const loadSaveStateString = localStorage.getItem("state");
+const loadData = JSON.parse(loadSaveStateString);
+state.rockCount = loadData.rockCount;
+
+updateRockAmount();

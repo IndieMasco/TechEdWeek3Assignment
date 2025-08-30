@@ -4,7 +4,7 @@ This week assignment we had to build a simple interactive game to engage our vis
 
 # Requirements
 
-- 🎯 Fetch upgrade data from the provided API and at least one upgrade from the API update the cookie count.
+- ✅ 🎯 Fetch upgrade data from the provided API and at least one upgrade from the API update the cookie count.
 - 🎯 Ensure that functions are used effectively to keep code organised and reusable.
 - 🎯 Implement event listeners to handle user interactions.
 - 🎯 Use local storage to save and restore the cookie count and relevant game information.
