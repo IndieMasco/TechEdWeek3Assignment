@@ -1,6 +1,6 @@
 # Reflection
 
-This week assignment we had to build a simple interactive game to engage our visitors. Games such as these are known as an “idling games” or “incremental games”.
+This week assignment we had to build a simple interactive game to engage our visitors. Games such as these are known as an “idling games” or “incremental games”. I found this week's assignment a bit easier than last week's. We worked on more JavaScript throughout the week, so my understanding of it was a bit better. Also, I used similar methods for this assignment to those I used in last week's.
 
 # Requirements
 
