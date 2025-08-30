@@ -10,7 +10,7 @@ let cpsAmount = document.getElementById("cps");
 
 // Changes the count
 function updateRockAmount() {
-  rockAmount.innerText = "you have " + state.rockCount + " rocks";
+  rockAmount.innerText = "You have " + state.rockCount + " rocks";
   cpsAmount.innerText = "CPS:" + state.cps + "";
 }
 
@@ -39,6 +39,7 @@ async function displayUpgrades() {
     const upgradeList = document.createElement("button");
     upgradeList.textContent = `${upgrades[i].name} - Cost: ${upgrades[i].cost} rocks`;
     upgradeList.setAttribute("index", i);
+    upgradeList.className = "upgradeButtons";
     document.body.appendChild(upgradeList);
 
     // Buttons
@@ -66,7 +67,7 @@ setInterval(function () {
 }, 1000);
 
 // Local storage
-// This section saves and loads your progress from your local storage. 
+// This section saves and loads your progress from your local storage.
 
 // The data I want saved
 let state = {
@@ -89,5 +90,3 @@ state.cps = loadData.cps;
 // Anything under this point stays at the bottom
 
 updateRockAmount();
-
-
