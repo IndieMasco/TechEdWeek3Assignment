@@ -28,7 +28,7 @@ async function displayUpgrades() {
   const upgrades = await getUpgrades();
   for (let i = 0; i < upgrades.length; i++) {
     const upgradeList = document.createElement("button");
-    upgradeList.textContent = upgrades[i].name;
+    upgradeList.textContent = `${upgrades[i].name} - Cost: ${upgrades[i].cost} rocks`;
     document.body.appendChild(upgradeList);
   }
 }
