@@ -43,6 +43,12 @@ This week assignment we had to build a simple interactive game to engage our vis
 
 Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
 
+# Wireframe
+
+- This was my original design for my Cookie Clicker game, but as you can tell, the finished product has changed a little
+
+![Wireframe](./images/wireframe1.png)
+
 # Feedback Request
 
 If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
