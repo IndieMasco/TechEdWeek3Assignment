@@ -1,12 +1,14 @@
 // console.log("HELLO!");
 
-// Clicks
-// This part pulls what I need from my HTML, changes the count for both rock and CPS, and makes the images clickable.
+// This section pulls what I need from my HTML so the rest of my JavaScript can run.
 
-// Pulling from HTML
 let rockButton = document.getElementById("rockButton");
 let rockAmount = document.getElementById("rockAmount");
 let cpsAmount = document.getElementById("cps");
+let rockSound = document.getElementById("rockSound");
+let volumeBar = document.getElementById("volume-bar");
+
+// This section changes the count for both rock and CPS, makes the images clickable, and adjusts the audio volume
 
 // Changes the count
 function updateRockAmount() {
@@ -18,9 +20,15 @@ function updateRockAmount() {
 function clickRocks() {
   state.rockCount++;
   updateRockAmount();
+  rockSound.currentTime = 0; // Reset the sound to the beginning
+  rockSound.play();
 }
 
-// API & Upgrades
+// Jump audio volume
+volumeBar.addEventListener("input", function () {
+  rockSound.volume = volumeBar.value;
+});
+
 // This section pulls info from the API, pushes all the info to display on my game, and creates all the upgrade buttons
 
 // Pulling
@@ -57,7 +65,6 @@ async function displayUpgrades() {
 
 displayUpgrades();
 
-// The interval
 // This section controls the CPS count and auto-clicks when you buy an upgrade.
 
 setInterval(function () {
@@ -66,7 +73,6 @@ setInterval(function () {
   saveData();
 }, 1000);
 
-// Local storage
 // This section saves and loads your progress from your local storage.
 
 // The data I want saved

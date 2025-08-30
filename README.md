@@ -13,14 +13,13 @@ This week assignment we had to build a simple interactive game to engage our vis
 # Stretch Requirements
 
 - ✅ 🏹 Consolidate upgrade management by managing all upgrades in a single function.
-- 🏹 Improve UX with animations, sound effects, or other visual effects.
-- 🏹 Fantastic use of README to provide important information such as a description of the project, how to deploy and other app information.
-- 🏹 Implement error handling using try/catch.
-- 🏹 Create a menu for users to adjust game options like sound effects or display preferences.
+- ✅ 🏹 Improve UX with animations, sound effects, or other visual effects.
+- ✅ 🏹 Create a menu for users to adjust game options like sound effects or display preferences.
 
 # requirements that I wasn't able to achieve
 
-................
+- ❌ 🏹 Fantastic use of README to provide important information such as a description of the project, how to deploy and other app information.
+- ❌ 🏹 Implement error handling using try/catch.
 
 # Errors or bugs I encountered
 

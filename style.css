@@ -26,6 +26,10 @@ body {
   transform: translateX(-50%);
 }
 
+#animerock:active {
+  transform: translateX(-50%) translateY(-50px);
+}
+
 #text-container {
   background-color: wheat;
   border: 2px solid black;
@@ -46,4 +50,16 @@ body {
   flex-direction: column;
   margin-left: auto;
   font-size: 1.1rem;
+}
+
+#volume-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: wheat;
+  border: 2px solid black;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }

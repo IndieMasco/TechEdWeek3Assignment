@@ -39,5 +39,24 @@
 
     <!-- Upgrades -->
     <div id="upgrades"></div>
+
+    <!-- Jump audio -->
+    <div id="volume-container">
+      <p>Jump volume</p>
+      <input
+        type="range"
+        id="volume-bar"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0.5"
+      />
+    </div>
+    <audio
+      id="rockSound"
+      src="./sounds/jump.mp3"
+      preload="auto"
+      autobuffer
+    ></audio>
   </body>
 </html>
