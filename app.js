@@ -16,31 +16,41 @@ function clickRocks() {
   updateRockAmount();
 }
 
-// API
+// API & Upgrades
 
-async function getData() {
+async function getUpgrades() {
   const response = await fetch(
     "https://cookie-upgrade-api.vercel.app/api/upgrades"
   );
-  console.log(response);
   const data = await response.json();
-  console.log(data);
   return data;
 }
-const upgrades = getData();
-console.log(upgrades);
+const upgrades = getUpgrades();
 
-// Upgrades
+async function displayUpgrades() {
+  const upgrades = await getUpgrades();
+  const upgradeList = document.getElementById("upgrades");
+  upgradeList.textContent = upgrades;
+  document.body.appendChild(upgradeList);
+}
 
-//====
+displayUpgrades();
 
 // The interval
 
-setInterval(function () {
-  rockCount += cps;
-}, 1000);
+// setInterval(function () {
+//   rockCount += cps;
+// }, 1000);
 
 // Local storage
 
-let rockCount = 0;
-let cps = 0;
+let saveState = {
+  rockCount: 0,
+  cps: 0,
+};
+
+const saveStateString = JSON.stringify(saveState);
+localStorage.setItem("saveState", saveStateString);
+
+const loadSaveStateString = localStorage.getItem("saveState");
+JSON.parse(loadSaveStateString);
