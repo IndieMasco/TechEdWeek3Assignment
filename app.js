@@ -29,7 +29,6 @@ async function displayUpgrades() {
   for (let i = 0; i < upgrades.length; i++) {
     const upgradeList = document.createElement("button");
     upgradeList.textContent = upgrades[i].name;
-
     document.body.appendChild(upgradeList);
   }
 }
