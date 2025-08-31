@@ -1,5 +1,3 @@
-# That Time I Got Reincarnated as a Rock in a Mining Cookie-Clicker Game
-
 ## Rock lore
 
 That Time I Got Reincarnated as a Rock in a Mining Cookie-Clicker Game is an idle clicker game where players take on the role of a reincarnated rock. The primary objective is to mine as many rocks as possible to purchase upgrades that automate and accelerate your rock-collection rate.
