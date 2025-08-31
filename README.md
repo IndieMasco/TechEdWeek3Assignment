@@ -23,17 +23,20 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 # Errors or Bugs I Encountered
 
-- I keep getting a 404 error code on my console (⬇️Image below⬇️). I've looked into what it is and how to solve it. It's saying I need to create a favicon.ico file, but I don't know if it's meant to have something within the file or if it has to be left empty. If I could get some feedback on what a favicon.ico actually is, that would be great.
+- I keep getting a 404 error code on my console (⬇️Image below⬇️). I've looked into what it is and how to solve it. It's saying I need to create a favicon.ico file with an image and then link it in with my HTML.
+- I've figured out what it is and why I'm getting the error. I have now fixed the error, but I'm going to leave this in, as any more info on this would be helpful.
 
 <div align="center">
 
 ![404 error](./images/404.png)
+![Favicon](./images/favicon.png)
+
 </div>
 
 # What went really well and what could have gone better?
 
 - I had hoped I would have had more time to style the game a bit more, but I made sure that everything was working first and all the main goals were met.
-- I would have liked to change the names of the upgrades to fit with the theme of my game
+- I would have liked to change the names of the upgrades to fit with the theme of my game.
 
 # External sources
 
@@ -47,14 +50,20 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 ### Tutorials
 
-Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
+- Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
+
+### favicon.ico
+
+- Making the favicon.ico - https://favicon.io/favicon-generator/
+- Image converter - https://image.online-convert.com/convert-to-ico
 
 # Wireframe
 
-- This was my original design for my Cookie Clicker game, but as you can tell, the finished product has changed a little. That's mainly due to how I wanted the clickable image to sit with the background so it didn't look out of place
+- This was my original design for my Cookie Clicker game, but as you can tell, the finished product has changed a little. That's mainly due to how I wanted the clickable image to sit with the background so it didn't look out of place.
 <div align="center">
 
 ![Wireframe](./images/wireframe1.png)
+
 </div>
 
 # Feedback Request
