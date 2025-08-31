@@ -15,6 +15,7 @@ Starting with manual clicks to generate rocks, players can use their earnings to
 ## Getting Started
 
 To run the game on your local machine, follow these steps:
+
 - STEP 1 - Clone the repository: `git clone [repository-url]`
 - STEP 2 - Navigate to the project directory: `cd [project-folder]`
 - STEP 3 - Open the `index.html` file in your web browser.
@@ -30,12 +31,13 @@ To run the game on your local machine, follow these steps:
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Contributing
- 
+
 We welcome contributions! If you'd like to help, please:
+
 - Report any bugs you find.
 - Suggest new features.
