@@ -8,5 +8,7 @@ Starting with manual clicks to generate rocks, players can use their earnings to
 
 - This chart shows all available upgrades, their costs, and the corresponding rock-per-second (RPS) gain for each
 <div align="center">
+
 ![Upgrade Tier List](./tierlist.png)
+
 </div>
