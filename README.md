@@ -25,6 +25,12 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 - I had hoped I would have had more time to style the game a bit more, but I made sure that everything was working first and all the main goals were met.
 - I would have liked to change the names of the upgrades to fit with the theme of my game
+- I keep getting a 404 error code on my console (⬇️Image below⬇️). I've looked into what it is and how to solve it. It's saying I need to create a favicon.ico file, but I don't know if it's meant to have something within the file or if it has to be left empty. If I could get some feedback on what a favicon.ico actually is, that would be great.
+
+<div align="center">
+
+[404 error](./images/404.png)
+</div>
 
 # External sources
 
