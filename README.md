@@ -27,7 +27,7 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 <div align="center">
 
-[404 error](./images/404.png)
+![404 error](./images/404.png)
 </div>
 
 # What went really well and what could have gone better?
