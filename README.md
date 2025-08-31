@@ -43,8 +43,10 @@ Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
 # Wireframe
 
 - This was my original design for my Cookie Clicker game, but as you can tell, the finished product has changed a little. That's mainly due to how I wanted the clickable image to sit with the background so it didn't look out of place
+<div align="center">
 
 ![Wireframe](./images/wireframe1.png)
+</div>
 
 # Feedback Request
 
