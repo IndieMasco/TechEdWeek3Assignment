@@ -23,7 +23,7 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 # Errors or Bugs I Encountered
 
-- I keep getting a 404 error code on my console (⬇️Image below⬇️). I've looked into what it is and how to solve it. It's saying I need to create a favicon.ico file with an image and then link it in with my HTML. I've figured out what it is and why I'm getting the error. I have now fixed the error, but I'm going to leave this in, as any more info on this would be helpful.
+- I keep getting a 404 error code on my console (⬇️Image below⬇️). I've looked into what it is and how to solve it. It's saying I need to create a favicon.ico file with an image and then link it in with my HTML. I have now fixed the error, but I'm going to leave this in, as any more info on this would be helpful.
 
 <div align="center">
 
