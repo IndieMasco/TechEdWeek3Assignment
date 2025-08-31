@@ -29,6 +29,10 @@ body {
   transform: translateX(-50%);
 }
 
+#animerock:hover {
+  cursor: pointer;
+}
+
 #animerock:active {
   transform: translateX(-50%) translateY(-50px);
 }
@@ -59,6 +63,10 @@ body {
   font-size: 1.2rem;
   border-radius: 50px;
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+.upgradeButtons:hover {
+  cursor: pointer;
 }
 
 /* Audio volume bar */
