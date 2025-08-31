@@ -1,6 +1,6 @@
 # Reflection
 
-For this week's assignment, we had to build a simple interactive game to engage visitors. Games like these are known as idle games or incremental games. I found this assignment a bit easier than last week's, mainly because we focused more on JavaScript throughout the week, which improved my understanding. It also helped that I was able to use some of the same methods from last week's assignment. Additionally, I'm finding it really useful to leave notes in my code, especially in JavaScript, to help me remember the steps and understand what each part does.
+For this week's assignment, we had to build a simple interactive game to engage visitors. Games like these are known as idle games or incremental games. I found this assignment a bit stressful, but it was easier than last week's, mainly because we focused more on JavaScript throughout the week, which helped improve my understanding. It also helped that I was able to use some of the same methods from last week's assignment. Additionally, I'm finding it really useful to leave notes in my code, especially in JavaScript, to help me remember the steps and understand what each part does.
 
 # Requirements
 
@@ -36,6 +36,7 @@ For this week's assignment, we had to build a simple interactive game to engage 
 
 - I had hoped I would have had more time to style the game a bit more, but I made sure that everything was working first and all the main goals were met.
 - I would have liked to change the names of the upgrades to fit with the theme of my game.
+- I got stuck a couple of times with the JavaScript. I would be missing a line of code or one little key word to finish it off.
 
 # External sources
 
