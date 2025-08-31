@@ -1,6 +1,6 @@
 # Reflection
 
-This week assignment we had to build a simple interactive game to engage our visitors. Games such as these are known as an “idling games” or “incremental games”. I found this week's assignment a bit easier than last week's. We worked on more JavaScript throughout the week, so my understanding of it was a bit better. Also, I used similar methods for this assignment to those I used in last week's.
+For this week's assignment, we had to build a simple interactive game to engage visitors. Games like these are known as idle games or incremental games. I found this assignment a bit easier than last week's, mainly because we focused more on JavaScript throughout the week, which improved my understanding. It also helped that I was able to use some of the same methods from last week's assignment. Additionally, I'm finding it really useful to leave notes in my code, especially in JavaScript, to help me remember the steps and understand what each part does. I had hoped I would have had more time to style the game a bit more, but I made sure that everything was working first and all the main goals were met.
 
 # Requirements
 
@@ -20,14 +20,6 @@ This week assignment we had to build a simple interactive game to engage our vis
 
 - ❌ 🏹 Fantastic use of README to provide important information such as a description of the project, how to deploy and other app information.
 - ❌ 🏹 Implement error handling using try/catch.
-
-# Errors or bugs I encountered
-
-................
-
-# What went really well and what could have gone better?
-
-................
 
 # External sources
 
@@ -52,3 +44,7 @@ Click counter - https://www.youtube.com/watch?v=1sri-wG8RJg
 # Feedback Request
 
 If there is anything you think I could do better or improve on, I'd be happy to listen and learn from what you have to say.
+
+# Audio
+
+- Sound Effect by <a href="https://pixabay.com/users/freesound_community-46691455/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6462">freesound_community</a> from <a href="https://pixabay.com/sound-effects//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=6462">Pixabay</a>

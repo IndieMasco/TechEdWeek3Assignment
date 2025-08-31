@@ -3,12 +3,12 @@
 body {
   background-image: url(./images/background.png);
   background-size: fill;
-  background-repeat: no-repeat;
   font-family: "Fjalla One", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
+/* Title of the game */
 .header {
   padding: 1%;
   margin: 1% auto;
@@ -21,6 +21,7 @@ body {
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
+/* Clickable image */
 #animerock {
   position: absolute;
   top: 45%;
@@ -32,6 +33,7 @@ body {
   transform: translateX(-50%) translateY(-50px);
 }
 
+/* Rock & CPS count */
 #text-container {
   background-color: wheat;
   border: 2px solid black;
@@ -45,6 +47,7 @@ body {
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
+/* Upgrade buttons */
 .upgradeButtons {
   border: 2px solid black;
   background-color: wheat;
@@ -58,6 +61,7 @@ body {
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.8);
 }
 
+/* Audio volume bar */
 #volume-container {
   position: fixed;
   bottom: 20px;
@@ -66,7 +70,6 @@ body {
   border: 2px solid black;
   padding: 10px;
   display: flex;
-  align-items: center;
   gap: 10px;
   border-radius: 50px;
   box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, 0.8);
