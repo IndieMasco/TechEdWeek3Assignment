@@ -63,7 +63,7 @@ From your reflection:
 
 Favicon 404 (what it is & how to fix):
 
-Browsers auto-request /favicon.ico at the site root. If your game isn’t served from the domain root (e.g., GitHub Pages subfolder) that absolute request 404s.
+- Browsers auto-request /favicon.ico at the site root. If your game isn’t served from the domain root (e.g., GitHub Pages subfolder) that absolute request 404s.
 
 - Fixes:
 
